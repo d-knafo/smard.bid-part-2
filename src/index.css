@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.container {
+  width: 1170px;
+  background-color: #f3f3f3;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box-state-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-state-box{
+  background-color: #fff;
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+}
+
+.box-messages-box {
+  background-color: #fff;
+  width: 100%;
+  margin: 10px;
+}
+.message-row {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.message-from {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.message-content {
+  font-size: 15px;
+}
+.message-time {
+  margin-top: 3px;
+  font-size: 12px;
+}
+.box-state-title {
+  padding: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-state-content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.box-state-sum {
+  font-size: 20px;
+}
+
+.box-state-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.badge {
+  text-shadow: none;
+  font-size: 12px;
+  padding: 1px 8px;
+  font-weight: normal;
+  line-height: 15px;
+  background-color: #ABBAC3!important;
+  color: #fff;
+}
+
+.orders-image{
+  margin: 10px;
+}
+
+.orders-image > img {
+  width: 100%;
+}
+
+.badge-success { background-color: #82af6f!important }
+.badge-primary { background-color: #2283c5!important }
+.badge-info { background-color: #3a87ad!important }
+.badge-warning { background-color: #f89406!important }
+.badge-important { background-color: #d15b47!important }
+
+.text-success { color: #82af6f!important }
+.text-primary { color: #2283c5!important }
+.text-info { color: #3a87ad!important }
+.text-warning { color: #f89406!important }
+.text-important { color: #d15b47!important }
+
+.float-right { float: right}
+.float-left { float: left}
+.cGray{ color: #929292; }
+.pv15 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.w50{
+  width: 50%;
+  padding: 8px;
+  display: inline-block;
+}
+.w100 {
+  width: 100%;
+  display: inline-block;
+}
